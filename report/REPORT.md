@@ -9,3 +9,9 @@
 - Key concept : require() kiểm tra quyền, event, constructor gán owner
 - Tested : greet(), setGreeting("GM Ganache") từ owner, setGreeting từ Account 2 -> revert "Not the owner", resetGreeting()
 - Ganache proof: screenshots/02_compile.png, 02_test1.png, 02_test2.png
+
+## 02 Greeting
+- What it does : lưu lời chào, chỉ owner được đổi, ai cũng đọc được
+- Key concept : require() kiểm tra quyền, event, constructor gán owner
+- Tested : greet(), setGreeting("GM Ganache") từ owner, setGreeting từ Account 2 -> revert "Not the owner", resetGreeting()
+- Ganache proof: screenshots/02_compile.png, 02_test1.png
